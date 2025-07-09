@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: ilyashepelevv/hello-go:v1.0.0
+          images: ilyashepelevv/hello-go
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
